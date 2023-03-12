@@ -20,7 +20,7 @@ class _ImageCardState extends State<ImageCard> {
           color: Colors.black,
           borderRadius: BorderRadius.all(Radius.circular(10))),
       margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-      padding: EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       child: Column(
         children: [
           SizedBox(
