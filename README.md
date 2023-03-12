@@ -2,10 +2,14 @@
 This is a flutter app which detects objects smartly in the camera.
 
 
-# :clapper: Video Demonstration
-this is the video demo
+# :clapper: App Demonstration
+<img src = "https://user-images.githubusercontent.com/97830682/224579560-2f5c6b2b-9f75-4196-952b-3b81e614fc48.jpg" width="300"/>&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/97830682/224579567-8cea0e40-55fc-4370-8bd7-35fbc94feddf.jpg" width="300"/>&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/97830682/224579586-f4a69081-1f52-4ef2-9df5-5990fd05ca26.jpg" width="300"/>&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/97830682/224579590-b24126bd-7eee-4ebc-862e-b3cc11b56c6f.jpg" width="300"/>&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/97830682/224579601-470dde17-deac-41f6-8909-dd4d9ff15cf9.jpg" width="300"/>&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/97830682/224579606-67f6bc70-5834-4ca3-849c-45f78bc65d85.jpg" width="300"/>
 
 
+### Video Demonstration for the same -->
+
+https://user-images.githubusercontent.com/97830682/224581185-5b03d30e-1d35-498a-b958-a75f618e82f0.mp4
+ 
 
 
 # :question: Problem Statement
@@ -21,10 +25,18 @@ This app detects objects in live camera stream providng a constrained layout on 
 
 #  :desktop_computer: Technologies Used
 
+
 <ul>
-  <li>Flutter & Dart</li>
-  <li>Object Detection Model --> Pre-Trained SSD MobileNet Model on TensorFlowLite</li>
+
+  <li>  <img src= "https://user-images.githubusercontent.com/97830682/224580530-8b279566-92b2-4ceb-be41-b0b8b394a153.svg" width = "20"/> Flutter & Dart
+</li>
+
+
+
+  <li> <img src= "https://user-images.githubusercontent.com/97830682/224580546-43b229b2-0bd1-4821-aa9a-5e0c426e0265.svg" width = "20"/>    Object Detection Model --> Pre-Trained SSD MobileNet Model on TensorFlowLite</li>
 </ul>  
+
+
     
  ## Flutter Packages Used
  <ul>
@@ -96,6 +108,13 @@ This is a warning and can be harmlessly ignored for the time being, if the older
 
 https://drive.google.com/file/d/1N2nsjb4TcDvfczFl7_hzerraxoOBKpEI/view?usp=sharing
 
+
+# :level_slider: Limitations
+
+<ul>
+  <li>App is limited by the correctness of the ML model used , in ./assets </li>
+  <li>App is also limited by the camera quality of the device</li>
+</ul>  
 
 
 
