@@ -103,6 +103,19 @@ This is a warning and can be harmlessly ignored for the time being, if the older
 <li> Channel: Stable</li>
 </ul>
 
+#### Issue 3: IOS issues with `tflite`
+The Package not being maintained for a long time results in serious issues with ios.Some Headers files in the package codes are missing.
+
+<img width="1349" alt="image" src="https://user-images.githubusercontent.com/97830682/224585747-65add736-5c6a-40f7-9701-06bc1559d1b7.png">
+
+Tried Resolving the issue from the comment of the developer as in https://github.com/shaqian/tflite-react-native/issues/19 for package in .pub-cache but didn't worked out , the last activity on this feed being way back in 2020.
+
+Recent Queries in 2021 , https://github.com/shaqian/flutter_tflite/issues/217 remains unanswered by the developer.
+
+So as of now the code does not compile for IOS
+
+
+
 
 # :vibration_mode: Bundled Apk for the App
 
